@@ -1,0 +1,31 @@
+.myParagrapg {
+    line-height: 1.6;
+}
+
+.myDivPic{
+background-image: url("../image/home.jpg");
+background-repeat: no-repeat;
+width: 70%;
+height: 80%;
+background-size: contain;
+/* display: flex; */
+margin-top: 50px;
+left: 15%;
+
+background-position: center;
+position: absolute;    
+}
+
+.myText {
+    
+    font-size: xx-large;
+    /* display: flex; */
+    position: absolute;   
+    top: 50%;
+    left: 40%;     
+    color: white;
+    text-shadow: -1px 1px 2px #000,
+    1px 1px 2px #000,
+	1px -1px 0 #000,
+	-1px -1px 0 #000;
+}
